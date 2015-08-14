@@ -1,1 +1,10 @@
 @import 'bootstrap';
+
+$body-bg:	#2c3e50;
+$navbar-inverse-bg: #34495e;
+$color-cloud: #ecf0f1;
+$navbar-inverse-link-color: $color-cloud;
+
+.container#about {
+	background: $color-cloud;
+}
