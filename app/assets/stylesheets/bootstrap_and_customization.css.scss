@@ -1,12 +1,39 @@
 /* From flatuicolors.com */
 $body-bg:	#2c3e50;
-$navbar-inverse-bg: #34495e;
+
+// Added Georgia to font-family
+$font-family-sans-serif: Georgia;
+
+$navbar-default-bg: #34495e;
 $color-cloud: #ecf0f1;
-$navbar-inverse-link-color: $color-cloud;
-$brand-primary: #f39c12;
+$navbar-default-link-color: $color-cloud;
+
+// Brand
+$brand-color: #d35400;
+$brand-primary: $brand-color;
+$navbar-default-brand-color: $brand-color;
+$navbar-default-brand-hover-color: $color-cloud;
+$navbar-default-link-hover-color: white;
+
+.navbar-header {
+	$link-hover-color: $color-cloud !important;
+}
+
+.navbar-header, .navbar-collapse {
+	font-family: Helvetica;
+}
 
 .container#about {
 	background: $color-cloud;
+	border-radius: 6px;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
 }
 
 @import 'bootstrap';
