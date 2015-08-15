@@ -1,10 +1,13 @@
-@import 'bootstrap';
-
+/* From flatuicolors.com */
 $body-bg:	#2c3e50;
 $navbar-inverse-bg: #34495e;
 $color-cloud: #ecf0f1;
 $navbar-inverse-link-color: $color-cloud;
+$brand-primary: #f39c12;
 
 .container#about {
 	background: $color-cloud;
 }
+
+@import 'bootstrap';
+@import 'bootstrap-sprockets';
