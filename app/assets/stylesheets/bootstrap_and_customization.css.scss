@@ -29,6 +29,17 @@ $navbar-default-link-hover-color: white;
 	padding: 5px 15px;
 }
 
+// used for overriding padding from container-body so that the bootstrap panels look good
+.userpages-body {
+	margin: -5px -15px !important;
+}
+
+.userpages-form {
+	width: 25%;
+	margin: 0px auto;
+	text-align: center;
+}
+
 .center {
 	text-align: center;
 }
