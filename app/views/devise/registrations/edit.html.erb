@@ -8,7 +8,7 @@
       <%= devise_error_messages! %>
 
       <div class="row">
-        <div class="form-group userpages-form">
+        <div class="form-group resource-form">
           <%= f.label :email %><br />
           <%= f.email_field :email, autofocus: true, class: "form-control" %>
         </div>
@@ -19,7 +19,7 @@
       <% end %>
 
       <div class="row">
-        <div class="form-group userpages-form">
+        <div class="form-group resource-form">
           <%= f.label :password %><br /> <i>(leave blank if you don't want to change it)</i><br />
           <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
         </div>
@@ -32,14 +32,14 @@
       </div> -->
 
       <div class="row">
-        <div class="form-group userpages-form">
+        <div class="form-group resource-form">
           <%= f.label :current_password %><br /> <i>(we need your current password to confirm your changes)</i><br />
           <%= f.password_field :current_password, autocomplete: "off", class: "form-control" %>
         </div>
       </div>
 
       <div class="row">
-        <div class="form-group userpages-form">
+        <div class="form-group resource-form">
           <%= f.submit "Update", class: "btn btn-primary" %>
         </div>
       </div>
