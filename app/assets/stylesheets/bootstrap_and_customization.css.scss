@@ -23,10 +23,18 @@ $navbar-default-link-hover-color: white;
 	font-family: Helvetica;
 }
 
+#header-new-pin {
+	
+}
+
 .container-body {
 	background: $color-cloud;
 	border-radius: 6px;
 	padding: 5px 15px;
+}
+
+.jumbotron {
+	background: white !important;
 }
 
 // used for overriding padding from container-body so that the bootstrap panels look good
@@ -48,5 +56,14 @@ $navbar-default-link-hover-color: white;
 	font-weight: bold;
 }
 
-@import 'bootstrap';
+.actions {
+	margin: 0.5em 0;
+}
+
+.actions-list-pins .glyphicon-trash {
+	padding-left: 5.5em;
+}
+
 @import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
